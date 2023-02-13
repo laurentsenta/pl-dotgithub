@@ -3,7 +3,7 @@ on:
   workflow_call:
     inputs:
       go-version:
-        # required: true
+        required: true
         type: string
         default: 1.19.x # TODO: remove once release-check is upgraded in all the targets
 
